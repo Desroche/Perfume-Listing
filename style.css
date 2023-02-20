@@ -1,0 +1,152 @@
+body {
+    position: absolute;
+    width: 1440px;
+    height: 800px;
+    background-color: #F2EAE2;
+}
+
+.card {
+    position: absolute;
+    width: 600px;
+    height: 450px;
+    left: 420px;
+    top: 175px;
+    border-radius: 10px 10px 10px 10px;
+    background-color: #FFFFFF;
+}
+
+.card #old-price {
+    position: absolute;
+    height: 23px;
+    left: 79.67%;
+    right: 12.33%;
+    top: 308px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 23px;
+/* identical to box height, or 177% */
+    text-decoration-line: line-through;
+/* Aurometal Saurus */
+    color: #6C7289;
+}
+
+#new-price {
+    position: absolute;
+    height: 32px;
+    left: 55.33%;
+    right: 23.5%;
+    top: 285px;
+/* Display */
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+/* identical to box height, or 100% */
+/* Deep Aquamarine */
+    color: #3D8168;
+}
+
+#product-info {
+    position: absolute;
+    height: 96px;
+    width: 236px;
+    left: 55.33%;
+    right: 5.33%;
+    top: 42px;
+    /* Display */
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+    /* or 100% */
+    /* Gunmetal */
+    color: #1C232B;
+}
+
+#button {
+    position: absolute;
+    left: 55.33%;
+    right: 5.33%;
+    top: 82.22%;
+    bottom: 7.11%;
+/* Deep Aquamarine */
+    background: #3D8168;
+    border-radius: 8px;
+    border: #FFFFFF;
+    /* Button Text */
+    text-align: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    /* Pure White */
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+#button:active {
+    background-color: #1A4032;
+}
+
+#product-description {
+    position: absolute;
+    height: 92px;
+    left: 55.25%;
+    right: 5.25%;
+    top: 179px;
+    /* Body */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 23px;
+    /* or 164% */
+    /* Aurometal Saurus */
+    color: #6C7289;
+}
+
+#product-title {
+    position: absolute;
+    height: 15px;
+    left: 55.25%;
+    right: 29.42%;
+    top: 25px; 
+    /* Overline */
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    letter-spacing: 5px;
+    /* Aurometal Saurus */
+    color: #6C7289;
+}
+
+.card #product-photo {
+    position: absolute;
+    width: 300px;
+    height: 450px;
+    left: 0%;
+    right: 50%;
+    top: 0%;
+    bottom: 0%;
+/* Pure White */
+    background: #FFFFFF;
+    border-radius: 10px 0px 0px 10px;
+}
+
+#cart-button {
+    position: absolute;
+    width: 14.39px;
+    height: 16px;
+    left: 385px;
+    top: 385px;
+    z-index: 1;
+}
